@@ -29,12 +29,11 @@ const App = () => {
 
     <ChakraProvider>
     <div className='canvas-page'>
-    <Flex h="100vh">
+    <Flex h="100vh" justifyContent="space-between">
       <Toolbar/>
-      {/* <Flex flex={1} position="relative"> */}
-        <Canvas />
-        <Toolbar2/>
-      </Flex>
+      <Canvas />
+      <Toolbar2/>
+    </Flex>
     {/* </Flex> */}
     </div>
   </ChakraProvider>

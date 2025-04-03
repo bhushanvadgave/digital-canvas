@@ -45,7 +45,7 @@ const Canvas = () => {
   }, [])
 
   return (
-    <div className='moddle-section'>  
+    <div className='middle-section'>  
     {/* <motion.div 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
